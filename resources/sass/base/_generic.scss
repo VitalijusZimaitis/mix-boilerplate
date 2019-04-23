@@ -1,0 +1,21 @@
+html {
+  font-size: 62.5%;
+  height: 100%;
+}
+
+body {
+  font-family: $font-family-base;
+  //background-color: $background-color;
+  font-size: $font-size-base;
+  height: 100%;
+}
+
+.page-wrapper {
+  @include make-container-max-widths();
+  @extend .mx-auto;
+  height: 100%;
+}
+
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+  @include make-row();
+}

@@ -1,0 +1,8 @@
+mix-manifest.json
+
+/vendor/
+/public/
+/.idea
+/node_modules/
+
+.env

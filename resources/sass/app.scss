@@ -1,0 +1,37 @@
+/*
+  Bootstrap core
+ */
+@import 'base/core/default';
+
+/*
+  Base
+ */
+@import 'base/config/colors';
+@import 'base/config/variables';
+@import 'base/mixins/breakpoints';
+
+/*
+  Bootstrap components
+ */
+@import 'base/core/components';
+
+/*
+  Generic
+ */
+@import 'base/generic';
+
+/*
+  Fonts
+ */
+@import './fonts/Neris';
+
+/*
+  Vendors
+ */
+@import '~slick-carousel/slick/slick';
+
+/*
+  Modules
+ */
+@import './modules/buttons';
+@import './modules/icons';
