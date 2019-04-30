@@ -1,7 +1,11 @@
 mix-manifest.json
 
 /vendor/
-/public/
+/public/css/
+/public/js/
+/public/fonts/
+/public/images/
+/public/mix-manifest.json
 /.idea
 /node_modules/
 

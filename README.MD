@@ -15,7 +15,7 @@
 
 ## Development server can be started with:
 
-* `php -S localhost:3000`
+* `cd public && php -S localhost:3000`
 
 ---
 ## Simplified bootstrap breakpoint mixins:

@@ -1,5 +1,4 @@
 const mix = require('laravel-mix');
-require('dotenv').config();
 
 if (!mix.inProduction()) {
   mix.webpackConfig({
@@ -9,10 +8,10 @@ if (!mix.inProduction()) {
 }
 
 mix
-  .setPublicPath(`${process.env.COMPILED_ASSETS_FOLDER}`)
+  .setPublicPath(`public`)
+  .setResourceRoot('')
   .ts('./resources/scripts/app.ts', 'js')
   .sass('./resources/sass/app.scss', 'css')
-  .setResourceRoot(`${process.env.APP_URL}/${process.env.COMPILED_ASSETS_FOLDER}/`)
   .options({
     postCss: [
       require('autoprefixer')({
