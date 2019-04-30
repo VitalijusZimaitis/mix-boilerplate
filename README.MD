@@ -4,8 +4,6 @@
 ---
 
 * Install assets with: `yarn install`
-* Rename `.env.example` to `.env`
-* Setup correct data in `.env` file
 
 ## Compile assets:
 
